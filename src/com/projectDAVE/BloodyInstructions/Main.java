@@ -42,7 +42,7 @@ public class Main {
             String line = reader.readLine();
             while (line != null) {
                 String[] splitString = line.split(",");
-                Pair<String, String> pairToAdd = new Pair<>(splitString[0], splitString[1]);
+                Pair<String, String> pairToAdd = new Pair<>(" " + splitString[0] +" ", " "+splitString[1]+" ");
                 listOfPairs.add(pairToAdd);
                 // read next line
                 line = reader.readLine();
